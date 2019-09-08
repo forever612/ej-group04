@@ -6,13 +6,13 @@ html,body,.container {
 }
 .container > .left {
 	width: 220px;
-	background-color: #333;
+	background-color: #019297;
 	height: 100%;
 	float: left;
 	color: #ffffff;
 }
 .container > .left a {
-	color: #ffffff;
+	color: #ddedc0;
 	font-size: 14px;
 }
 .left > .title {
@@ -20,18 +20,25 @@ html,body,.container {
 	font-weight: bold;
 	text-align: center;
 	line-height: 4em;
-	border-bottom: 1px solid #ededed
+	border-bottom: 1px solid #ededed;
+	color: #fbc19b;
 }
 .left >ul.left_nav {
 
 }
 .left >ul.left_nav > li{
 	text-align: center;
-	line-height: 3em;
-	border-bottom: 1px solid #ededed
+	line-height: 4em;
+	border-bottom: 1px solid #ededed;
+	position: relative;
+}
+.left > ul.left_nav > li i.iconfont{
+	left: 3em;
+	position: absolute;
+	/*color: #2e82ff;*/
 }
 .left >ul.left_nav > li.current{
-	background-color: #ededed;
+	background-color: #a3dadd;
 }
 .left >ul.left_nav > li.current a{
 	color: #333;
