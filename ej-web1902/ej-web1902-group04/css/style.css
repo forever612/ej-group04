@@ -15,13 +15,14 @@ html,body,.container {
 	color: #ddedc0;
 	font-size: 14px;
 }
-.left > .title {
+.top > .title {
+	padding: 0 2em;
 	font-size: 20px;
 	font-weight: bold;
-	text-align: center;
 	line-height: 4em;
 	border-bottom: 1px solid #ededed;
-	color: #fbc19b;
+	color: #fff0ab;
+	background-color: #008d94;
 }
 .left >ul.left_nav {
 
