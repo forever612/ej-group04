@@ -5,7 +5,7 @@ $(function(){
 		$("ul.left_nav > li").removeClass("current");
 		$(this).addClass("current");
 		var url = $(this).attr("url");
-		$("#wrapper").load(url)
+		$("#wrapper").load(url+"?"+Math.random())
 	})
 
 	// 默认选中第一个li
