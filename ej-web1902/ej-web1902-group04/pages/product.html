@@ -12,7 +12,7 @@
 	background-color: #ededed;
 }
 .daohang{
-	background-color:#329b7a;
+	background-color:#a3dadd;
 }
 .none {
 	display: none;
@@ -55,11 +55,11 @@ tbody >tr:nth-child(even){
 		<div id="btn_add" class="btn">添加</div>
 		<div id="btn_import" class="btn">批量删除</div>
 		<div id="btn_add" class="btn">导出</div>
-		<div class="sousuo">
+<!-- 		<div class="sousuo">
 			<div>
 				<input type="text" placeholder="请输入您想要查询的内容"></div>
 				
-		</div>
+		</div> -->
 	</div>
 
 	<div style="margin-bottom: .5em">
@@ -115,7 +115,7 @@ var baseURL = "http://134.175.154.93:6677";
 			var name = document.querySelector("input[name=name]").value;
 			var description = document.querySelector("input[name=description]").value;
 
-			var url = baseURL+"/product/updateProduct";
+			var url = baseURL+"/product/insertProduct";
 			var data;
 			 if(id){
 				data = "id="+id+"&name="+name+"&description="+description;
